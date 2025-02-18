@@ -1,4 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
+
+// Assignment :
+// 1. Create Todo app with the help of vite.
+// 2. Add functionality which help to show list of todos, details of todo, create todo and delete todo.
+// 3. Store todos in the state(use useState hook).
+// 4. Also add functionality to Mark todo as done.
 
 type Todo = {
   task: string;
